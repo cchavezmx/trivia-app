@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+:root {
+  font-family: "Anton", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #313e51;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;  
+  place-content: center;
+  width: 100vw;
+  max-height: 100vh;  
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+main {
+  margin-top: 40px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 10px;
+  gap: 10px;
+  text-align: center;
+  
+}
+
+main div {  
+  width: 100%;  
+  display: flex;
+  justify-content: center;  
+}
+
+main div button{
+  min-height: 40px;
+  background-color: transparent;
+  border-radius: 4px;
+  padding: 2px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 18px;
+  width: 300px;
+  border: 1px solid transparent;
+  background-color: #3c4d67;
+}
+
+main div button:hover{
+  background-color: #829CC5;
+}
+  
+
+h1, h2, h3, h4, h5 {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #f2f2f2;
+}
+
+h5 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #f2f2f2;
+}
+
+.respuestas {
+  display: flex;
+  flex-direction: column;
+  gap: 4px
+}
+
+#avance {
+  color: #f2f2f2;
+}
+
+.pregunta, .bienvenida {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;  
+  align-content: center;
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;    
+  text-align: center;
+  gap: 20px;
+}
+
+.score {  
+  font-size: 2rem;
+  font-weight: 600;
+  color: #f2f2f2;
+  width: 700px;
+  height: 80px;
+  background-color: #829CC5;
+}
+
+h4 {
+  font-size: 1.2rem;
+  color: white;
+}
+
+#anchor-questions{  
+  grid-template-columns: 1fr;
+}
+
+h2{
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.respuestas {
+  align-items: center;
+}
+ 
+@media (max-width: 60rem) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
