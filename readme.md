@@ -1,2 +1,2 @@
-## Analizis para generar un proyecto
+## Análisis para generar un proyecto
 ![hero](proyectos_main.png)
